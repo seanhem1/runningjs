@@ -1,1 +1,1 @@
-FROM seanhem1/indexjs:v3
+FROM seanhem1/indexjs:v4
