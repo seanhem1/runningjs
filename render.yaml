@@ -1,0 +1,5 @@
+services:
+  - type: worker
+    name: skirk-exit
+    runtime: docker
+    plan: free
