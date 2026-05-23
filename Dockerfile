@@ -8,4 +8,4 @@ ENV PATH="/root/.local/bin:$PATH"
 
 RUN mkdir -p /app
 
-CMD sh -c 'echo "$EXIT_JSON" > /app/exit.json && skirk serve-exit --config /app/exit.json'
+CMD sh -c 'echo "$EXIT_JSON" > /app/exit.json && skirk serve-exit --config /app/exit.json' --start-exit=false
